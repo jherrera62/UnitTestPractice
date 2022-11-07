@@ -66,6 +66,10 @@ bool Practice::isPalindrome(string input)
     else
       match = false;
   }
+  if(input.size()==0)
+  {
+    return true;
+  }
   return match;
 }
 
